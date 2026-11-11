@@ -9,6 +9,7 @@ profil-web/
 ├── index.html
 ├── css/
 │   └── style.css
+├── assets/          (opsional, untuk logo asli)
 ├── favicon.svg
 └── README.md
 ```
@@ -60,5 +61,7 @@ Ganti `USERNAME` dengan username GitHub kamu.
 
 ## Catatan
 
-- Tanpa foto profil: bagian hero memakai avatar inisial **D**.
+- Logo NDAP dibuat dengan HTML/CSS: teks miring di dalam bingkai hitam dengan bayangan abu-abu, menyerupai logo asli tanpa memakai file gambar.
+- Folder `assets/` disiapkan kalau nanti ingin memakai file logo asli.
 - Data yang bisa diubah ada di `index.html` (teks) dan `css/style.css` (warna di bagian `:root`).
+- Web ini tidak memakai JavaScript atau framework, hanya HTML dan CSS.

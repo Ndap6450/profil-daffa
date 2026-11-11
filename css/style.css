@@ -487,8 +487,7 @@ ul {
   border-bottom: 1px solid rgba(21, 21, 21, 0.4);
 }
 
-.contact-list a,
-.contact-static {
+.contact-list a {
   display: flex;
   align-items: baseline;
   gap: 1rem;
@@ -691,8 +690,7 @@ ul {
     max-width: 220px;
   }
 
-  .contact-list a,
-  .contact-static {
+  .contact-list a {
     flex-wrap: wrap;
   }
 

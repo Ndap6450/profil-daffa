@@ -389,55 +389,6 @@ ul {
   color: var(--paper);
 }
 
-/* ---------- Keahlian ---------- */
-.section-dark {
-  background: var(--ink);
-  color: var(--paper);
-}
-
-.section-dark .kicker {
-  color: #9d9689;
-}
-
-.skill-list {
-  display: flex;
-  flex-direction: column;
-}
-
-.skill-row {
-  display: flex;
-  align-items: baseline;
-  gap: 1.5rem;
-  padding: 1.1rem 0;
-  border-top: 1px solid #38342e;
-}
-
-.skill-row:last-child {
-  border-bottom: 1px solid #38342e;
-}
-
-.skill-no {
-  flex: 0 0 34px;
-  font-family: var(--mono);
-  font-size: 0.6rem;
-  color: var(--accent);
-}
-
-.skill-row h3 {
-  flex: 0 0 200px;
-  font-size: clamp(1.4rem, 3vw, 2.2rem);
-  font-weight: 800;
-  line-height: 1;
-  letter-spacing: -0.04em;
-  text-transform: uppercase;
-}
-
-.skill-row p {
-  flex: 1;
-  color: #b3ac9f;
-  font-size: 0.88rem;
-}
-
 /* ---------- Hobi ---------- */
 .hobby-grid {
   display: flex;
@@ -690,20 +641,6 @@ ul {
 
   .data-key {
     flex-basis: 100%;
-  }
-
-  .skill-row {
-    flex-wrap: wrap;
-    gap: 0.5rem 1rem;
-  }
-
-  .skill-row h3 {
-    flex: 1 1 auto;
-  }
-
-  .skill-row p {
-    flex-basis: 100%;
-    padding-left: 2.9rem;
   }
 
   .hobby + .hobby {

@@ -52,7 +52,7 @@ Ganti `USERNAME` dengan username GitHub kamu.
 
 - [x] HTML semantik
 - [x] CSS eksternal
-- [x] Flexbox pada navbar, hero, data diri, keahlian, hobi, kontak, dan footer
+- [x] Flexbox pada navbar, hero, data diri, hobi, kontak, dan footer
 - [x] Responsif (media query 820px dan 640px)
 - [x] Data diri lengkap
 - [ ] Upload ke GitHub
